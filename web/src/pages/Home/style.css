@@ -47,28 +47,45 @@
     max-height: 300px;
     margin-left: 20px;
 }
-@media only screen and (max-width:600px){
-    #Home .dev_img {
+#Home #About{
+    display: flex;
+}
+#Home #About div{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+@media only screen and (max-width:1118px){
+    #Home #About {
+        flex-wrap: wrap;
+    }
+    #Home .dev_img{
+        margin: 0;
         margin: 0 auto;
         margin-top: 20px;
     }
 }
-#Techs .techs-list {
+@media only screen and (max-width:900px){
+    #Home #About div{
+        max-width: 100%;
+    }
+}
+#Home #Techs .techs-list {
     display: grid;
-    grid-template-columns: repeat(4,minmax(200px,1fr));
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
     gap: 20px;
 }
-#Techs .icons {
+#Home #Techs .icons {
     font-size: 30px;
 }
-#Techs .language {
+#Home #Techs .language {
     margin: 0;
     text-transform: capitalize;
     font-weight: bold;
     letter-spacing: .1rem;
     font-size: 16px;
 }
-#Techs .knowledge {
+#Home #Techs .knowledge {
     font-size: 14px;
     line-height: 1.4rem;
 }   

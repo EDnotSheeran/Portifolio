@@ -62,7 +62,7 @@ export default function Home(){
                     <ul className='techs-list'>
                         {techsArray.map((tech) => {
                             return(
-                                <li className='tech'>
+                                <li key={tech.name} className='tech'>
                                 <div className='icons'>
                                     {getIcon(tech.icon,tech.color)}
                                 </div>
