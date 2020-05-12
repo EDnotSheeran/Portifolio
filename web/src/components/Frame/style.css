@@ -1,0 +1,27 @@
+:root {
+    --middle-frame-bg-color: #11161E;
+}
+.frame-container {
+    display: flex;
+}
+@media only screen and (max-width:600px){
+    .frame-container {
+        flex-direction: column;
+    }
+}
+.frame-children {
+    margin-left: 5rem;
+    margin-right: 15rem;
+    padding: 1.5rem 2.5rem 0 2.5rem;
+    width: 100%;
+    min-height: 100vh;
+    background-color: var(--middle-frame-bg-color);
+    color: white;
+}
+
+@media only screen and (max-width: 600px) {
+    .frame-children {
+        margin: 0;
+        padding-bottom: 5rem;
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "techsArray": [
+        {
+            "icon":"DiJavascript",
+            "color":"#dbce3b",
+            "name":"vanila javascript",
+            "knowledge": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut ea soluta repudiandae deserunt omnis, repellat voluptatem in optio commodi cum minima, totam deleniti reprehenderit voluptate itaque, ad atque earum modi?"
+        },
+        {
+            "icon":"DiReact",
+            "color":"#32a4a8",
+            "name":"react",
+            "knowledge": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut ea soluta repudiandae deserunt omnis, repellat voluptatem in optio commodi cum minima, totam deleniti reprehenderit voluptate itaque, ad atque earum modi?"
+        },
+        {
+            "icon":"FaNodeJs",
+            "color":"#32a852",
+            "name":"node.JS",
+            "knowledge": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut ea soluta repudiandae deserunt omnis, repellat voluptatem in optio commodi cum minima, totam deleniti reprehenderit voluptate itaque, ad atque earum modi?"
+        },
+        {
+            "icon":"FaPhp",
+            "color":"#3b5edb",
+            "name":"PHP",
+            "knowledge": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut ea soluta repudiandae deserunt omnis, repellat voluptatem in optio commodi cum minima, totam deleniti reprehenderit voluptate itaque, ad atque earum modi?"
+        },
+        {
+            "icon":"FaHtml5&DiCss3",
+            "color":"#db6b3b",
+            "name":"HTML & CSS",
+            "knowledge": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut ea soluta repudiandae deserunt omnis, repellat voluptatem in optio commodi cum minima, totam deleniti reprehenderit voluptate itaque, ad atque earum modi?"
+        }
+    ]
+}

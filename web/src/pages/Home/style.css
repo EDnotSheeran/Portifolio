@@ -1,0 +1,74 @@
+#Home .title{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin: 0;
+    word-spacing: 5px;
+    font-size: 40px;
+}
+#Home section {
+    margin: 30px 0;
+}
+#Home section:first-child {
+    margin-top: 10px;
+}
+#Home .small-title{
+    text-transform: capitalize;
+    word-spacing: .2rem;
+    font-size: 25px;
+}
+#Home .title-caps::before {
+    content: '|';
+    margin-right: 15px;
+    color: transparent;
+    background-color: var(--devcard-bg-color);
+}
+#Home .subtitle{
+    text-transform: capitalize;
+    font-weight: 300;
+    margin-top: 5px;
+}
+#Home .text-content .link::after {content: ' ';}
+#Home .text-content .link::before {content: ' ';}
+#Home .text-content .link {
+    color: var(--devcard-bg-color);
+}
+#Home .button svg{
+    font-size: 18px;
+}
+#Home .button.colored{
+    background-color: var(--devcard-bg-color);
+}
+#Home .button:last-child{
+    margin-left: 15px;
+}
+#Home .dev_img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 300px;
+    margin-left: 20px;
+}
+@media only screen and (max-width:600px){
+    #Home .dev_img {
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+#Techs .techs-list {
+    display: grid;
+    grid-template-columns: repeat(4,minmax(200px,1fr));
+    gap: 20px;
+}
+#Techs .icons {
+    font-size: 30px;
+}
+#Techs .language {
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 16px;
+}
+#Techs .knowledge {
+    font-size: 14px;
+    line-height: 1.4rem;
+}   

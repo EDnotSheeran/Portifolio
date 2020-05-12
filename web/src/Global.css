@@ -1,0 +1,104 @@
+@font-face {
+  font-family: 'Manrope';
+  src: url('./assets/font/Manrope/Manrope-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('./assets/font/Open_Sans/OpenSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  src: url('./assets/font/Open_Sans/OpenSans-Bold.ttf');
+}
+
+:root{
+  font-size: 16px;
+  --text-primary: #b6b6b6;
+  --text-secondary: #ececec;
+  --bg-primary: #23232e;
+  --bg-secondary: #141418;
+  --trasition-speed: 600ms;
+  --fa-primary: #ff7eee;
+  --fa-secondary: #df49a6;;
+}
+
+* {
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body::-webkit-scrollbar{
+  width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track{
+  background-color: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb{
+  background-color: #6649b8;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans';
+  padding: .5rem 1rem;
+  border: 0;
+  border-radius: 3px;
+  font-weight: bold;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.button svg{
+  margin-right: .4rem;
+}
+
+hr {
+  border-bottom: none;
+  border-color: rgba(0,0,0,.2);
+}
+.darkmode hr {
+  border-bottom: none;
+  border-color: rgba(255,255,255,.2);
+}
+.flexbox {
+  display: flex;
+}
+@media only screen and (max-width:600px){
+  .mobile-flexDirection-colum{
+    flex-direction: column;
+  }
+}
